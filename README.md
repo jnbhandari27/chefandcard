@@ -9,10 +9,13 @@ The winner of the game is the player who has more points at the end of N rounds.
 The game is now over and Chef has told Morty to find the winner. Unfortunately, this task is too complex for him. Help Morty find the winner.
 
 Input:
+
 First line will contain T, number of testcases.
 The first line of each test case will contain N, the number of rounds played.
 The ith of the next N lines of each test case will contain Ai and Bi, the number on the card drawn by Chef and Morty respectively in round i.
+
 Output:
+
 For each test case, output two space separated integers on a new line:
 Output
 
@@ -21,12 +24,17 @@ Output
 2 if it is a draw,
 followed by the number of points the winner had.
 (If it is a draw then output either player’s points).
-Constraints
+
+Constraints:
+
 1≤T≤1000
 1≤N≤100
 1≤Ai,Bi≤109
+
 Subtasks
+
 100 points : No additional constraints
+
 Sample Input:
 2
 3
